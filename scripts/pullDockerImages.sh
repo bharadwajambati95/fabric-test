@@ -10,7 +10,7 @@ if [ -z "$OUTPUT" ]; then
   echo "cd to the fabric-test directory"
   echo "make gotools"
   echo 'export PATH=$PATH:$GOPATH/bin'
-  exit 1
+  # exit 1
 else
   echo $OUTPUT
 fi

@@ -76,7 +76,7 @@ pre-setup: gotools
 	@bash $(PRE_SETUP)
 
 .PHONY: pre-req
-pre-req: git-init git-latest clean pre-setup
+pre-req: git-latest clean pre-setup
 
 .PHONY: ci-daily
 ci-daily: pre-req fabric pull-images pull-binaries pull-thirdparty-images  daily-tests
